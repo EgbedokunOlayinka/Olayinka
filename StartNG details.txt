@@ -1,0 +1,9 @@
+FULL NAME:EGBEDOKUN OLAYINKA SIMEON
+
+EMAIL: egbedokunolayinka@gmail.com
+
+SLACK USERNAME: Olayinka
+
+TRACKS: Front-end, Back-end
+
+COURSES: HTML, CSS, JAVASCRIPT, Node.js
