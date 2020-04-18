@@ -20,7 +20,7 @@ let yugioh = function(num) {
         }
         
     }
-    return(arr);
+    return arr;
 }
 
 console.log(yugioh(100));
