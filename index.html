@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/aff9772b1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MyQuiz App</title>
+  </head>
+  <body>
+    <h1 id="header">
+      <i class="fas fa-book-open"></i> My<span id="header-span">Quiz</span>App
+    </h1>
+
+    <main>
+      <div class="container" id="welcome">
+        <div class="img-div">
+          <img src="./undraw_check_boxes_m3d0.png" alt="" />
+        </div>
+        <div>
+            <button id="welcome-btn" class="btn">Start Quiz</button>
+        </div>
+      </div>
+
+      <div class="container questions" id="question-one">
+        <h2 class="question-head">Question 1/5</h2>
+        <p class="question">What engine does Javascript run on?</p>
+        <ul class="options">
+          <li class="answers"><i class="fas fa-dot-circle"></i>v2</li>
+          <li class="answers correct"><i class="fas fa-dot-circle"></i>v8</li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>v5</li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>v10</li>
+        </ul>
+        <div class="btn-div">
+          <button class="question-btn btn">
+            NEXT <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container questions" id="question-two">
+        <h2 class="question-head">Question 2/5</h2>
+        <p class="question">
+          One of these is a framework in the Python programming language
+        </p>
+        <ul class="options">
+          <li class="answers"><i class="fas fa-dot-circle"></i>Laravel</li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>Spring</li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>Symfony</li>
+          <li class="answers correct">
+            <i class="fas fa-dot-circle"></i>Django
+          </li>
+        </ul>
+        <div class="btn-div">
+          <button class="question-btn btn">
+            NEXT <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container questions" id="question-three">
+        <h2 class="question-head">Question 3/5</h2>
+        <p class="question">One of these is not a programming language</p>
+        <ul class="options">
+          <li class="answers"><i class="fas fa-dot-circle"></i>PHP</li>
+          <li class="answers correct">
+            <i class="fas fa-dot-circle"></i>Node.js
+          </li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>Java</li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>C++</li>
+        </ul>
+        <div class="btn-div">
+          <button class="question-btn btn">
+            NEXT <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container questions" id="question-four">
+        <h2 class="question-head">Question 4/5</h2>
+        <p class="question">Which of these is used in styling web pages?</p>
+        <ul class="options">
+          <li class="answers"><i class="fas fa-dot-circle"></i>Flutter</li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>Flask</li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>Scikit</li>
+          <li class="answers correct"><i class="fas fa-dot-circle"></i>CSS</li>
+        </ul>
+        <div class="btn-div">
+          <button class="question-btn btn">
+            NEXT <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container questions" id="question-five">
+        <h2 class="question-head">Question 5/5</h2>
+        <p class="question">Who founded the Python programming language?</p>
+        <ul class="options">
+          <li class="answers correct">
+            <i class="fas fa-dot-circle"></i>Guido van Rossum
+          </li>
+          <li class="answers"><i class="fas fa-dot-circle"></i>Seyi Onifade</li>
+          <li class="answers">
+            <i class="fas fa-dot-circle"></i>Eniola Agboola
+          </li>
+          <li class="answers">
+            <i class="fas fa-dot-circle"></i>Abasifreke Ekwere
+          </li>
+        </ul>
+        <div class="btn-div">
+          <button class="submit-btn btn" id="last">
+            SUBMIT <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="result">
+        <div class="result-text">
+          <p>Quiz finished</p>
+          <p>You got <span id="count">x questions</span> right</p>
+        </div>
+      </div>
+    </main>
+
+    <div id="score">
+        <div id="score-container">
+            <p>SCORE: <span id="res">0</span>/5</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
